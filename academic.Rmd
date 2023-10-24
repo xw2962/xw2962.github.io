@@ -1,0 +1,60 @@
+---
+title: "Academic Experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## EDUCATION
+
+* I took my undergraduate degree at [Macalester College](https://www.macalester.edu) in  Saint Paul, Minnesota. And I took a major in [Biology](https://www.macalester.edu/biology/).
+
+Here are some useful links:
+
+* [Macalester College](https://www.macalester.edu)
+* [Biology at Macalester College](https://www.macalester.edu/biology/)
+
+## HEALTH RELATED EXPERIENCE
+
+### Experience One 
+
+#### Content:
+Internship in Dr. Courtney Aldrich’s Lab at University of Minnesota, College of Pharmacy  
+
+#### Time: 
+May 2021 –  June 2022
+
+#### Type: 
+Research Internship 
+
+#### Descriptions: 
+* Did internships in [Dr. Courtney Aldrich’s lab](https://sites.google.com/umn.edu/aldrich/), participating in the process like [protein expression](https://en.wikipedia.org/wiki/Gene_expression), [HPLC assays](https://www.impactanalytical.com/hplc-testing-uplc-testing/#:~:text=HPLC%20stands%20for%20High%20Performance,of%20a%20mixture%20or%20compound.) and [electrofluorescence quenching assays](https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/quenching-fluorescence#:~:text=Fluorescence%20quenching%20is%20an%20important,with%20quencher%20molecule(s).). 
+
+* Participated in projects and independent studies including investigation of [Mycobacterium abscessus](https://en.wikipedia.org/wiki/Mycobacteroides_abscessus) drug-resistance to antibiotics mediated by [mbtA](https://www.sigmaaldrich.com/US/en/search/mbta?focus=papers&page=1&perpage=30&sort=relevance&term=mbta&type=citation_search) and [Mab_Arr](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9444957/) enzymes. 
+
+### Experience Two  
+
+#### Content:
+Public Health and Infectious Disease Research Training Program   
+
+#### Time: 
+January 2021 – May 2021
+
+#### Type: 
+Workshop and literature Review 
+
+#### Descriptions: 
+* Did case studies with professor [Sophia Koutsogiannaki](https://scholar.google.com/citations?user=JUvI5hgAAAAJ&hl=en), learning epidemiological facts of infectious disease transmission and control. 
+   
+* Published a [paper](https://www.e3s-conferences.org/articles/e3sconf/abs/2021/68/e3sconf_netid21_03080/e3sconf_netid21_03080.html) discussing different types of vaccines. 
+
+* [Link to the paper](https://www.e3s-conferences.org/articles/e3sconf/abs/2021/68/e3sconf_netid21_03080/e3sconf_netid21_03080.html)
+
+## Skills 
+
+### Tech Skills 
+* Have taken statistics(STATS-155) and computer science(COM-123) at Macalester college.
+
+### Language Skills
+* Japanese language proficiency reaches [JLPT](https://www.jlpt.jp/e/about/) N2 level and has taken 400 level Japanese language course at Macalester college.  

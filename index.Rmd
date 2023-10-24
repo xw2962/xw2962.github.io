@@ -1,0 +1,44 @@
+---
+title: "Amy's Self-introduction"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Amy's Website for Self-introduction
+
+Hi everyone, this is Amy and I generally made this website for introducing myself. There are several sections for my introduction: my pronouns and current situation, my hobbies, my room and my academic experience. 
+
+Here is my self-portrait:
+
+<img src="Amy.jpg" style="width:50%">
+
+## My Pronouns and Current Situation 
+
+This is Amy, I use she, her, hers pronouns. I am currently a graduate student studying at [Mailman School of Public Health](https://www.publichealth.columbia.edu). My program is [master of science in Epidemiology](https://www.publichealth.columbia.edu/academics/degrees/master-science/epidemiology).
+
+## My Hobbies {.tabset}
+
+### Kendo 
+
+I love playing [kendo](https://en.wikipedia.org/wiki/Kendo) and it trains my body and makes me healthy. 
+
+<img src="Kendo.jpg" style="width:50%">
+
+### Flower Arrangement  
+
+I also like flower arrangement for building my sense of aesthetics. I have learned the class called [SOGETSU IKEBANA](https://www.sogetsu.or.jp/e/). 
+
+<img src="SOGETSU.jpg" style="width:50%">
+
+## My Room  
+
+Here's my room: 
+
+<img src="Room.jpg" style="width:90%">
+
+## My Academic Experience
+
+[Academic Experience](academic.html)
+

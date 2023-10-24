@@ -1,0 +1,15 @@
+name: "Homework4 internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Academic Experience"
+      href: academic.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<xw2962@cumc.columbia.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/<xw2962>/
+output:
+  html_document:
+    theme: flatly
+
