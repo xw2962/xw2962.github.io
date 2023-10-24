@@ -1,0 +1,58 @@
+---
+title: "Instacart_flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(dplyr)
+```
+
+```{r}
+data(instacart)
+   instacart_df = instacart |> 
+     select(
+    order_id, order_hour_of_day, product_name, aisle,department) |>         sample_n(size = 10000)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+### Make a ScatterPlot: When each Product of Alcohol was ordered
+
+```{r}
+instacart_df  |> 
+  mutate(text_label = str_c("Product: ", product_name, "\nwhen ordered: ", order_hour_of_day)) %>%
+  filter(department=="alcohol") |> 
+  mutate(product_name = fct_reorder(product_name, order_hour_of_day)) |> 
+  plot_ly(
+    x = ~product_name, y = ~order_hour_of_day, type = "scatter", mode = "markers", text = ~text_label,alpha = 0.5) |> 
+    layout(xaxis = list(tickangle = 35))
+```
+
+Column {data-width=350,data-height=550}
+-----------------------------------------------------------------------
+### Make a BoxPlot: When the Products of each Department were Ordered 
+
+```{r}
+instacart_df  |>  
+  mutate(department = fct_reorder(department, order_hour_of_day)) |>  
+  plot_ly(x = ~department, y = ~order_hour_of_day, color = ~department, type = "box", colors = "viridis") |> 
+    layout(xaxis = list(tickangle = 35))
+```
+
+### Make a BarPlot: Count on the Number of Orders of each Aisle in Bakery Department 
+
+```{r}
+instacart_df |> 
+  filter(department=="bakery") |>
+  count(aisle) |>
+  mutate(aisle = fct_reorder(aisle, n)) |>
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
+```
+

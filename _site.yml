@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Academic Experience"
       href: academic.html
+    - text: "Instacart Flexdashboard"
+      href: instacart_dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<xw2962@cumc.columbia.com>
     - icon: fa-github fa-lg
