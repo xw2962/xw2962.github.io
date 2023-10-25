@@ -10,7 +10,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<xw2962@cumc.columbia.com>
     - icon: fa-github fa-lg
-      href: http://github.com/<xw2962>/
+      href: https://github.com/xw2962/xw2962.github.io.git
 output:
   html_document:
     theme: flatly
