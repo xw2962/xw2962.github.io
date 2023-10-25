@@ -17,7 +17,7 @@ Here are some useful links:
 
 ## HEALTH RELATED EXPERIENCE
 
-### Experience One 
+### **Experience One** 
 
 #### Content:
 * Internship in Dr. Courtney Aldrich’s Lab at University of Minnesota, College of Pharmacy  
@@ -33,7 +33,7 @@ Here are some useful links:
 
 * Participated in projects and independent studies including investigation of [Mycobacterium abscessus](https://en.wikipedia.org/wiki/Mycobacteroides_abscessus) drug-resistance to antibiotics mediated by [mbtA](https://www.sigmaaldrich.com/US/en/search/mbta?focus=papers&page=1&perpage=30&sort=relevance&term=mbta&type=citation_search) and [Mab_Arr](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9444957/) enzymes. 
 
-### Experience Two  
+### **Experience Two**  
 
 #### Content:
 * Public Health and Infectious Disease Research Training Program   
@@ -51,10 +51,10 @@ Here are some useful links:
 
 * [Link to the paper](https://www.e3s-conferences.org/articles/e3sconf/abs/2021/68/e3sconf_netid21_03080/e3sconf_netid21_03080.html)
 
-## Skills 
+## SKILLS 
 
-#### Tech Skills 
+### **Tech Skills** 
 * Have taken statistics(STATS-155) and computer science(COM-123) at Macalester college.
 
-#### Language Skills
+### **Language Skills**
 * Japanese language proficiency reaches [JLPT](https://www.jlpt.jp/e/about/) N2 level and has taken 400 level Japanese language course at Macalester college.  
