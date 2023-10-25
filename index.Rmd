@@ -8,7 +8,7 @@ output:
 
 # This is Amy's Website for Self-introduction
 
-Hi everyone, this is Amy and I generally made this website for introducing myself. There are several sections for my introduction: my pronouns and current situation, my hobbies, my room and my academic experience. 
+Hi everyone, this is Amy and I generally made this website for introducing myself. There are several sections for my introduction: [my pronouns and current situation](#my-pronouns-and-current-situation), [my hobbies](#my-hobbies), [my room](#my-room) and [my academic experience](#my-academic experience). 
 
 Here is my self-portrait:
 
