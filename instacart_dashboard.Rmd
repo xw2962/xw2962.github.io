@@ -32,7 +32,8 @@ instacart_df  |>
   mutate(product_name = fct_reorder(product_name, order_hour_of_day)) |> 
   plot_ly( 
     x = ~product_name, y = ~order_hour_of_day, type = "scatter", mode = "markers", text = ~text_label,alpha = 0.5) |> 
-    layout(xaxis = list(tickangle = 35)) 
+    layout(xaxis = list(tickangle = 35,title = "Product Name"),
+         yaxis = list(title = "Hours in a Day")) 
 ```
 
 Column {data-width=350,data-height=550}
@@ -43,7 +44,8 @@ Column {data-width=350,data-height=550}
 instacart_df  |>  
   mutate(department = fct_reorder(department, order_hour_of_day)) |>  
   plot_ly(x = ~department, y = ~order_hour_of_day, color = ~department, type = "box", colors = "viridis") |> 
-    layout(xaxis = list(tickangle = 35))
+    layout(xaxis = list(tickangle = 35,title = "Department"),
+         yaxis = list(title = "Hours in a Day"))
 ```
 
 ### Make a BarPlot: Count on the Number of Orders of each Aisle in Bakery Department 
@@ -53,6 +55,8 @@ instacart_df |>
   filter(department=="bakery") |>
   count(aisle) |>
   mutate(aisle = fct_reorder(aisle, n)) |>
-  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis") |> 
+    layout(xaxis = list(title = "Aisle"),
+         yaxis = list(title = "Number of Orders"))
 ```
 
