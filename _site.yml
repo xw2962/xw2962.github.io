@@ -7,6 +7,8 @@ navbar:
       href: academic.html
     - text: "Instacart Flexdashboard"
       href: instacart_dashboard.html
+    - text: "Homework4 Code"
+      href: instacart_plotly.html 
     - icon: fa-envelope fa-lg
       href: mailto:<xw2962@cumc.columbia.com>
     - icon: fa-github fa-lg

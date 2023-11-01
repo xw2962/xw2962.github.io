@@ -27,12 +27,12 @@ Column {data-width=650}
 
 ```{r}
 instacart_df  |> 
-  mutate(text_label = str_c("Product: ", product_name, "\nwhen ordered: ", order_hour_of_day)) %>%
+  mutate(text_label = str_c("Product: ", product_name, "\nwhen ordered: ", order_hour_of_day)) %>% 
   filter(department=="alcohol") |> 
   mutate(product_name = fct_reorder(product_name, order_hour_of_day)) |> 
-  plot_ly(
+  plot_ly( 
     x = ~product_name, y = ~order_hour_of_day, type = "scatter", mode = "markers", text = ~text_label,alpha = 0.5) |> 
-    layout(xaxis = list(tickangle = 35))
+    layout(xaxis = list(tickangle = 35)) 
 ```
 
 Column {data-width=350,data-height=550}
