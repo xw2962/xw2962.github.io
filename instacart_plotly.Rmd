@@ -21,7 +21,6 @@ data(instacart)
 ```
 
 ## Make a ScatterPlot: Time in a Day vs. Frequency of Ordering of Different Departments  
-
 ```{r, warning=FALSE}
 filtered_hour = instacart_df |> 
   filter(add_to_cart_order == 1) |>
