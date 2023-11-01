@@ -26,12 +26,13 @@ Column {data-width=650}
 ### Make a ScatterPlot: Time in a Day vs. Frequency of Ordering of Different Departments
 
 ```{r,warning=FALSE}
-filtered_hour = instacart_df |>
+filtered_hour = instacart_df |> 
   filter(add_to_cart_order == 1) |>
   group_by(department, order_hour_of_day) |>
   summarise(item_count = n()) |>
   arrange(item_count) |>
-plot_ly(x = ~order_hour_of_day, type = "scatter", mode = "markers", color = ~department, alpha = 0.5) |>
+  mutate(text_label = str_c("when ordered: ", order_hour_of_day,"\nfrequency of ordering: ", item_count)) |>
+plot_ly(x = ~order_hour_of_day, y=~item_count, type = "scatter", mode = "markers", color = ~department, alpha = 0.5,text = ~text_label) |>
   layout(xaxis = list(title = "Hours in a Day"),
          yaxis = list(title = "Frequency of Ordering"),
          colorbar = list(title = "Department Names"))
